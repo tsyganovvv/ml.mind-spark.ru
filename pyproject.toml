@@ -10,7 +10,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = "==3.11.14"
 fastapi = ">=0.104.0"
 uvicorn = {extras = ["standard"], version = ">=0.24.0"}
 sqlalchemy = ">=2.0.0"
@@ -24,6 +24,14 @@ alembic = ">=1.12.0"
 redis = ">=5.0.0"
 python-dotenv = ">=1.0.0"
 httpx = ">=0.25.0"
+torch = {version = ">=2.2.0"}
+transformers = ">=4.36.0"
+sentencepiece = ">=0.2.0"
+accelerate = ">=0.25.0"
+sentence-transformers = ">=2.2.0"
+numpy = ">=1.24.0"
+protobuf = ">=4.25.0"
+psutil = ">=5.9.0"
 
 [build-system]
 requires = ["poetry-core"]
